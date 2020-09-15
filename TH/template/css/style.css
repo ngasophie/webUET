@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 980px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    width: 100%;
+    height: 160px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 200px);
+    background-color: antiquewhite;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+#aside-left{}
+#middle{}
+#aside-right{} */
