@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <form id='form'>
+        <div class="block">
+            <label class="name label">Họ tên</label>
+            <input type="text" class="input-wrapper required" name="name" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label class="address label">Địa chỉ</label>
+            <input type="text" class="input-wrapper" name="address" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label class="gender label">Giới tính</label>
+            <input type="radio" id="male" name="gender" value="male"checked="checked">
+            <label for="male">Nam</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nữ</label><br>
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="birthday label">Ngày sinh</label>
+            <input type="date" class="input-wrapper required" name="birthday"onkeyup="onKeyEnter(event)" placeholder="nn/tt/nnnn">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="email label">E-mail</label>
+            <input type="email" class="input-wrapper required" name="email" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="phone label">Điện thoại</label>
+            <input type="text" class="input-wrapper" name="phone" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="course label">Khóa đăng kí</label>
+            <label class="container">
+                <input type="checkbox" checked="checked"name='course'>
+                <span class="checkmark">Tiếng anh</span>
+            </label>
+            <label class="container">
+                <input type="checkbox" name='course'>
+                <span class="checkmark">Quản trị</span>
+            </label>
+            <label class="container">
+                <input type="checkbox" name='course'>
+                <span class="checkmark">CNTT</span>
+            </label>
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="username label">Tên sử dụng</label>
+            <input type="text" class="input-wrapper required" name="username" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="password label">Mât khẩu</label>
+            <input type="password" class="input-wrapper" name="password" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="confirmPassword label">Gõ lại mật khẩu</label>
+            <input type="password" class="input-wrapper" name="confirm" onkeyup="onKeyEnter(event)">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="note label">Ghi chú</label>
+            <textarea type="text" class="input-wrapper textarea" name="note"></textarea>
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="image label">Ảnh chân dung</label>
+            <input type="file" class="file" name="image" accept=".png,.jpg">
+            <span class="error"></span>
+        </div>
+        <div class="block">
+            <label for="" class="label"> </label>
+            <input type="submit" id="accept" value="Chấp nhận">
+            <button id="reject">Bỏ qua</button>
+        </div>
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>

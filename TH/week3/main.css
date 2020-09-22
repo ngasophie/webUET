@@ -1,0 +1,47 @@
+.block{
+    display: flex;
+    margin-bottom: 10px;
+}
+.label{
+    width: 120px;
+    line-height: 25px;
+}
+.input-wrapper{
+    width: 250px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    background-color: #f1f1f1;
+}
+.error{
+    color: red;
+    line-height: 25px;
+}
+.required{
+    background-color: #00dddd;
+}
+.file{
+    border: none;
+}
+.textarea{
+    height: 50px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #2196F3;
+    margin-right: 10px;
+    color: white;
+}
+#accept{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #2196F3;
+    margin-right: 10px;
+    color: white;
+}
+
